@@ -1,0 +1,26 @@
+{
+  "name": "for-jibreel",
+  "version": "1.0.0",
+  "description": "search event logs for Transfer and Approval events for a given (ERC20 Asset-User) pair",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Sam-Isa",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^3.3.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.9.2",
+    "mongoose": "^5.11.12",
+    "web3": "^1.3.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.7"
+  }
+}

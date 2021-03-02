@@ -1,0 +1,4 @@
+{
+     "mongoURI": "Replace Mongodb atlas URI or local mongodb URI here",
+     "infuraURI": "Replace Infura API URI here"
+}
